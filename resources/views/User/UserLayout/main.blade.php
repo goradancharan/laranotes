@@ -1,0 +1,6 @@
+@include('User.UserLayout.header')
+@include('User.UserLayout.sidebar')
+@include('User.UserLayout.navbar')
+@yield('mainsection')
+@include('User.UserLayout.footer')
+@yield('Script')
